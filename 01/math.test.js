@@ -1,5 +1,4 @@
-const math = require('./math');
-const { sum, minus } = math;
+import { sum, minus } from './math';
 
 test('adds 1 + 2 to equal 3', () => {
     expect(sum(1, 2)).toBe(3);
